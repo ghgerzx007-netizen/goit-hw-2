@@ -3,131 +3,141 @@ body {
     margin: 0;
     padding: 0;
 }
-
-ul,
-ol {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
-a {
+a
+{
     text-decoration: none;
     color: inherit;
 }
-
-a:hover,
-a:focus {
-    text-decoration: none;
-}
-
-h2 {
+h1,h2
+{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
 }
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #1a2b55;
-}
-
-.logo-first,
-.logo-second {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.logo-first {
-    color: #5a4fcf;
-}
-
-.logo-second {
-    color: #1a2b55;
-}
-
-.nav-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-indent: 30px;
-    letter-spacing: 0.02em;
-    color: #1a2b55;
-}
-
-.info {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #7d879c;
-}
-.hero h1 {
-    font-weight: 700;
+h1{
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
-    background-color: #1a2b55;
+    color:white;
+    background:  #2E2F42;
 }
-
-.button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #ffffff;
-    background: #1a2b55;
-}
-
-button:hover {
-    background: #5a4fcf;
-}
-
-.Strategy,
-.Punctuality,
-.Diligence,
-.Technologies {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.about {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.names {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+h2
+{
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #1a2b55;
+    color:  #2E2F42;
+}
+h3
+{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+header
+{
+    background-color: #E7E9FC;
+}
+.logo-first
+{
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.logo-second
+{
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:  #F4F4FD;
+}
+.nav-list
+{
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:  #2E2F42; 
+padding: 15px;
+}
+.info
+{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+padding: 15px;
+}
+.button
+{
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: white;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4D5AE5;
+cursor: pointer;
+}
+.about
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+padding-left: 15px;
+}
+.names
+{
+    font-weight: 500;
+font-size: 20px;
+
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+}
+.about-team
+{
+    font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--slate);
 }
 
-.about-team {
+
+footer p
+{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #64748b;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--cloud);
+background-color: #2E2F42 ;
 }
+footer
+{
+    background-color: #2E2F42 ;
+}
+ 
