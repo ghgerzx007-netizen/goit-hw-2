@@ -14,11 +14,13 @@ a
 text-decoration: none;
     
 }
-a:focus,
-a:hover
-{
+.nav-list a {
+    color: #2E2F42;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
     color: #404bbf;
-    cursor: pointer;
 }
 .hero{
     background:  #2e2f42;
@@ -53,6 +55,18 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.navigation
+{font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.info:hover,
+.info:focus {
+    color: #404bbf;
+}
+
 header
 {
     background-color: #E7E9FC;
@@ -106,15 +120,21 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4D5AE5;
 cursor: pointer;
 }
+.button:hover,
+.button:focus{
+    background: #404bbf;
+}
 .about
 {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 padding-left: 15px;
 }
+.team
+{background-color: #F4F4FD;}
 .names
 {
     font-weight: 500;
@@ -133,9 +153,25 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--slate);
+color: #434455;
 }
+.portfolio
 
+  { font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.team li{
+  background-color: #FFFFFF;  
+}
+.portfolio p
+{font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;}
 
 footer p
 {
